@@ -44,8 +44,6 @@ $data =  json_decode($json, true);
             <th>Value Season</th>
             <th>Cost Change from Start</th>
             <th>Percentage selected by</th>
-            <!-- <th>Transfers In</th>
-            <th>Transfers Out</th> -->
             <th>Total Points</th>
             <th>Points Per Game</th>
             <th>Minutes</th>
@@ -65,7 +63,6 @@ $data =  json_decode($json, true);
             <th>Creativity</th>
             <th>Threat</th>    
             <th>ICT Index</th>
-            <!-- <th>EA Index</th> -->
         </tr>
       </thead>
       <tbody>
@@ -90,8 +87,6 @@ $data =  json_decode($json, true);
                 <td><?PHP echo $item['value_season']; ?></td>
                 <td><?PHP echo $item['cost_change_start']/10; ?></td>
                 <td><?PHP echo $item['selected_by_percent']; ?></td>
-                <!-- <td><?PHP echo $item['transfers_in']; ?></td>
-                <td><?PHP echo $item['transfers_out']; ?></td> -->
                 <td><?PHP echo $item['total_points']; ?></td>
                 <td><?PHP echo $item['points_per_game']; ?></td>
                 <td><?PHP echo $item['minutes']; ?></td>
@@ -111,7 +106,6 @@ $data =  json_decode($json, true);
                 <td><?PHP echo $item['creativity']; ?></td>
                 <td><?PHP echo $item['threat']; ?></td>
                 <td><?PHP echo $item['ict_index']; ?></td>
-                <!-- <td><?PHP echo $item['ea_index']; ?></td> -->
             </tr>
             <?PHP
         }
